@@ -21,8 +21,8 @@ def send_risk_request(fico_score, dti, mths):
         return {"error": str(e)}
 
 if __name__ == "__main__":   
-    fico_score = 480
-    dti = 24
+    fico_score = 700
+    dti = 500
     mths = 0 
     result = send_risk_request(fico_score, dti, mths)
     print(result)
